@@ -1,0 +1,15 @@
+PROBLEM: I/P- N=10
+         O/P- 1 2 3 4 5 6 7 8 9 10
+         
+         
+SOLUTION:
+
+void printNos(int N)
+{
+    if(N==1)
+        cout<<'1'<<" ";
+    else{
+        printNos(N-1);
+        cout<<N<<" ";
+    }   
+}
